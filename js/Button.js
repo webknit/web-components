@@ -11,6 +11,9 @@ export class MyButton extends HTMLElement {
 
       this.shadowRoot.getElementById('click-me').addEventListener('click', event => console.log(event));
 
-      console.log(this.hasAttribute(classes));
+      if(this.hasAttribute('classes')) {
+        
+        this.shadowRoot.getElementById('click-me').className += this.getAttribute('classes');
+      } 
     }
 }

@@ -1,7 +1,11 @@
 
 import { MyButton } from './Button.js';
+import { MyCard } from './Card.js';
+import { MyCards } from './Cards.js';
 
 customElements.define('my-button', MyButton);
+customElements.define('my-card', MyCard);
+customElements.define('my-cards', MyCards);
 
 // let tmpl = document.querySelector('#x-cards');
 
