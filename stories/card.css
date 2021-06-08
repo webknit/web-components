@@ -1,0 +1,14 @@
+.card {
+    border: 1px solid red;
+    padding: 1rem;
+    max-width: 50%;
+    width: 30%;
+}
+
+.card--pink {
+    border-color: pink;
+}
+
+.card--green {
+    border-color: green;
+}
